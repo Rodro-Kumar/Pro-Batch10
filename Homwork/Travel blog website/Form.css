@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #c242f6,
+    #ab49f9,
+    #924ffc,
+    #7653fe,
+    #5157fe
+  );
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h2 {
+  color: white;
+  text-transform: capitalize;
+  padding-bottom: 25px;
+  font-size: 30px;
+}
+
+h4 {
+  color: white;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input {
+  color: white;
+  width: 350px;
+  background: rgba(255, 255, 0, 0.192);
+  padding: 12px 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 2px dashed yellowgreen;
+}
+
+select {
+  color: white;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 0, 0.192);
+  border: 2px dashed yellowgreen;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  width: 350px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+select > option {
+  background-color: yellowgreen;
+  padding: 10px;
+}
+
+textarea {
+  width: 350px;
+  background: rgba(255, 255, 0, 0.192);
+  border: 2px dashed yellowgreen;
+  border-radius: 10px;
+  padding: 12px 10px;
+}
+
+input:focus {
+  border: 2px solid yellowgreen;
+}
+
+textarea:focus {
+  border: 2px solid yellowgreen;
+}
+
+select:focus {
+  border: 2px solid yellowgreen;
+}
